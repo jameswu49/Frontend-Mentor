@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.outer-container {
+  height: 100vh;
+  background-color: rgb(214 225 239);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background-color: white;
+  height: 70%;
+  border-radius: 30px;
+}
+
+.img-row {
+  max-width: 350px;
+}
+
+img {
+  width: 19rem;
+  height: 20rem;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  color: grey;
+  font-size: 1rem;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
